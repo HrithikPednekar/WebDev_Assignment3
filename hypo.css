@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body{
+    text-align: center;
+    background-color:lightpink;
+    margin-top: 200px;
+}
+
+.heading{
+    font-size:90px;
+    font-family: algebrian;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 2px #d000ff;
+}
+
+.formula{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: #f0489f;
+    /* padding-left: 20px; */
+    border-radius: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.required::after{
+    content:" *";
+    color: red;
+}
+
+#sideA, #sideB{
+    font-size: xx-large;
+    font-family:cursive;
+}
+
+.side-input{
+    block-size: 30px;
+    border-color: rebeccapurple;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-hypo{
+    font-size: 30px;
+    box-shadow: purple;
+}
+
+#output-hypo{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1.5px 1.5px #d000ff;
+    font-weight: bolder;
+}
